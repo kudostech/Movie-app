@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+# MovieLand - Movie Recommendation App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MovieLand is a simple and interactive web application built with **React** that allows users to search for movies using the **OMDb API**. It displays movie information such as title, year, type, and poster in a user-friendly interface.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Search for movies by title.
+- View movie posters, release year, type, and title.
+- Handles missing posters(not supplied by the API) by displaying a placeholder image.
+- Responsive design for different screen sizes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+![MovieLand Demo](link-to-your-screenshot-or-gif)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React** - JavaScript library for building user interfaces.
+- **OMDb API** - API to fetch movie data.
+- **CSS** - Styling the application.
+- **Fetch API** - To make asynchronous HTTP requests.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js installed on your machine.
+- NPM or Yarn package manager.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/kudostech/movie-app.git
+````
 
-## Learn More
+2. Navigate to the project folder:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+cd movie-app
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Install dependencies:
 
-### Code Splitting
+```bash
+npm install
+# or
+yarn install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Start the development server:
 
-### Analyzing the Bundle Size
+```bash
+npm start
+# or
+yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. Open your browser and go to `http://localhost:3000` to view the app.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Usage
 
-### Advanced Configuration
+* Enter a movie name in the search bar.
+* Click the search icon or press **Enter**.
+* Browse the search results displayed as movie cards.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## File Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+movie-app/
+│
+├─ src/
+│  ├─ App.jsx          # Main application component
+│  ├─ MovieCard.jsx    # Component to display individual movie info
+│  ├─ search.svg       # Search icon
+│  └─ App.css          # Styling
+│
+├─ package.json        # Project dependencies
+└─ README.md           # Project documentation
+```
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## API
+
+This project uses the [OMDb API](http://www.omdbapi.com/) to fetch movie data. You will need an API key to make requests. Replace the API key in `App.jsx` with your own.
+
+```javascript
+const API_URL = "https://www.omdbapi.com?apikey=YOUR_API_KEY";
+```
+
+---
+
+## License
+
+This project is **open source** and available under the MIT License.
+
+---
+
+## Author
+
+**Qudus Abolaji**
+Frontend Developer & UI/UX Designer
+Portfolio: [https://kudostech-portfolio-website.vercel.app](https://kudostech-portfolio-website.vercel.app)
+GitHub: [https://github.com/kudostech](https://github.com/kudostech)
+LinkedIn: [https://www.linkedin.com/in/qudus-abolaji-046784214/](https://www.linkedin.com/in/qudus-abolaji-046784214/)
