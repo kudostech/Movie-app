@@ -15,7 +15,7 @@ MovieLand is a simple and interactive web application built with **React** that 
 
 ## Demo
 
-![MovieLand Demo](./Demo.png)
+![MovieLand Demo](./src/Demo.png)
 
 ---
 
