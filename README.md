@@ -115,5 +115,7 @@ This project is **open source** and available under the MIT License.
 **Qudus Abolaji**
 Frontend Developer & UI/UX Designer
 Portfolio: [https://kudostech-portfolio-website.vercel.app](https://kudostech-portfolio-website.vercel.app)
+
 GitHub: [https://github.com/kudostech](https://github.com/kudostech)
+
 LinkedIn: [https://www.linkedin.com/in/qudus-abolaji-046784214/](https://www.linkedin.com/in/qudus-abolaji-046784214/)
